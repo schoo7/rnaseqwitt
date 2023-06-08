@@ -1,6 +1,6 @@
-# RNA-seq reanalysis for Dr. Witt lab
+# RNA-seq reanalysis for the Dr. Witt lab
 # The input will be raw-count matrix
-# The KO_3 sampels are hetero, will be removed for DE analysis
+# The KO_3 samples are hetero, will be removed for DE analysis
 # The DESeq2 will be used for DE analysis, if you prefer Limma/ edgeR, I can re-run later
 setwd("/Users/siyuan/Library/CloudStorage/OneDrive-LSUHealthShreveport/Siyuan/Siyuan analysis for witt lab")
 raw=read.csv("raw_count.csv")
